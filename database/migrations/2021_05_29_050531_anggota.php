@@ -14,11 +14,11 @@ class Anggota extends Migration
     public function up()
     {
         Schema::create('anggota', function(Blueprint $table){
-            $table->integer('anggota_id', 15);
-            $table->string('anggota_nama', 50);
-            $table->string('anggota_alamat', 30);
-            $table->string('anggota_jk', 10);
-            $table->string('anggota_telp', 20);
+            $table->increments('id');
+            $table->string('nbi',10);
+            $table->string('nama_mhs',30);
+            $table->timestamps();
+    
         });
     }
 

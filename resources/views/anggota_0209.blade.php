@@ -4,7 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>
-    1461900133
+    1461900209
   </title>
   <link rel="stylesheet" href="{{asset('css/app.css')}}" />
 </head>
@@ -16,7 +16,7 @@
       <table class="w-full text-left rounded-lg">
         <thead>
           <tr class="text-gray-800 border border-b-0">
-            <th class="px-4 py-3">#</th>
+
             <th class="px-4 py-3">Name</th>
             <th class="px-4 py-3">Alamat</th>
             <th class="px-4 py-3">Jenis Kelamin</th>
