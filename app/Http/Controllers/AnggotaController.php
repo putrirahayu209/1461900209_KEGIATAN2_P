@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Support\Facedes\DB;
 use App\Models\Anggota;
 use App\Models\Buku;
 use App\Models\Pinjam;
@@ -9,7 +10,7 @@ use Illuminate\Http\Request;
 
 class AnggotaController extends Controller{
     public function anggota(){
-        $term = "Ade";
+        $term = "Arif";
         $anggota = Anggota::all(); //select
         $like = Anggota::where('anggota_nama','LIKE','%'.$term.'%')->get(); //select like
         $book = Buku::join('kategori','buku.kategori_id','=','kategori.kategori_id')->get(); //select join 

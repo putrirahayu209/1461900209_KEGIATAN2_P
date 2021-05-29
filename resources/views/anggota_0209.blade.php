@@ -41,7 +41,7 @@
         </tbody>
       </table>
       <br>
-      <h1>Select Like "Ade"</h1>
+      <h1>Select Like "Arif"</h1>
       <table class="w-full text-left rounded-lg">
         <thead>
           <tr class="text-gray-800 border border-b-0">
